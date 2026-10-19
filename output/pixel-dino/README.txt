@@ -1,8 +1,9 @@
 PIXEL DINO — CODEX PET RESOURCE SET
 
 Based on the supplied black pixel dinosaur reference. The background grid has
-been removed. A crisp white pixel outline keeps the dinosaur and its computer
-visible against dark backgrounds; the sprite backgrounds are fully transparent.
+been removed. A uniform two-pixel white outline keeps the dinosaur and computer visible on
+dark backgrounds. Every 2 x 2 pixel block has one exact color, with no blended
+edge colors or partial transparency. The sprite backgrounds are transparent.
 
 INSTALLATION
 Copy pet.json and spritesheet.webp together into:
@@ -52,15 +53,23 @@ source-assets.zip       Selected generated strips, source references, prompts
                         and registration information for future revision.
 
 ARTWORK AND VERIFICATION
-Artwork and outline edits use built-in Image Generation. Assembly uses
-connected pose extraction, a shared scale within each row, nearest-neighbor
-resizing and a strict black/white/transparent palette. Directional left frames
-mirror the approved right frames individually. Props are part of the four
-computer-state scenes and are fitted together with the character.
+Original artwork uses built-in Image Generation. After approval for precise
+pixel processing, tools/normalize_pet.py removes the generated outer outline,
+preserves enclosed eyes/screens, snaps artwork onto a 2px grid, and rebuilds
+an exact one-grid-cell (2px) outline using square/Chebyshev dilation. The white
+variant in output/pixel-dino-white uses the inverse opaque palette.
 
-Format and timing were checked against the locally installed app's loader and
-animation definitions, and the existing local pet manifest. Preview playback
-is rendered from the final encoded atlas. Validation reports describe file
-checks; no in-app installation or activation is claimed.
+Rebuild both palettes from the repository root with Pillow installed:
+  python tools/normalize_pet.py
+The source-assets.zip archive contains the original generated strips and
+pre-cleanup frame inputs, prompts and registration information. It is kept as
+immutable input, so repeated cleanup never stacks outlines. The script builds
+atlases, manifests, contact sheets, GIFs and quality checks; rerun the bundled
+atlas/frame validators and refresh browser captures and ZIPs after rebuilding.
 
-The exact input reference remains unchanged in the project's img folder.
+Format and timing were checked against the locally installed app. Both variants
+pass atlas and frame checks. The quality report checks the exact 2px grid and
+outline construction, opaque black/white palette and binary transparency.
+No in-app installation or activation is claimed.
+
+The original reference in img/ remains unchanged.

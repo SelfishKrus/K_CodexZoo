@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9580,
+          "bbox": [
+            24,
+            48,
+            166,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9504,
+          "bbox": [
+            24,
+            46,
+            166,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10036,
+          "bbox": [
+            24,
+            40,
+            168,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9552,
+          "bbox": [
+            24,
+            52,
+            168,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9708,
+          "bbox": [
+            22,
+            48,
+            168,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9420,
+          "bbox": [
+            26,
+            48,
+            166,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9408,
+          "bbox": [
+            20,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9320,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8836,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9044,
+          "bbox": [
+            22,
+            54,
+            170,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9564,
+          "bbox": [
+            20,
+            54,
+            172,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8908,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9116,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9512,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9408,
+          "bbox": [
+            22,
+            54,
+            172,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9320,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8836,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9044,
+          "bbox": [
+            22,
+            54,
+            170,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9564,
+          "bbox": [
+            20,
+            54,
+            172,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8908,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9116,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9512,
+          "bbox": [
+            22,
+            54,
+            170,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9348,
+          "bbox": [
+            20,
+            62,
+            172,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9280,
+          "bbox": [
+            20,
+            62,
+            172,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9528,
+          "bbox": [
+            18,
+            62,
+            172,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9548,
+          "bbox": [
+            18,
+            62,
+            174,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9876,
+          "bbox": [
+            22,
+            58,
+            170,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9236,
+          "bbox": [
+            24,
+            40,
+            168,
+            178
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8952,
+          "bbox": [
+            26,
+            22,
+            166,
+            156
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8968,
+          "bbox": [
+            26,
+            40,
+            166,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10184,
+          "bbox": [
+            18,
+            58,
+            174,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14460,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14484,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14276,
+          "bbox": [
+            8,
+            64,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14004,
+          "bbox": [
+            8,
+            72,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13764,
+          "bbox": [
+            8,
+            76,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14340,
+          "bbox": [
+            8,
+            62,
+            186,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14572,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14484,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14488,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14660,
+          "bbox": [
+            8,
+            56,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14876,
+          "bbox": [
+            8,
+            56,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14808,
+          "bbox": [
+            8,
+            56,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14680,
+          "bbox": [
+            8,
+            56,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14380,
+          "bbox": [
+            8,
+            58,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14920,
+          "bbox": [
+            8,
+            46,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15016,
+          "bbox": [
+            8,
+            48,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15024,
+          "bbox": [
+            8,
+            46,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14560,
+          "bbox": [
+            8,
+            54,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14836,
+          "bbox": [
+            8,
+            46,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14644,
+          "bbox": [
+            8,
+            50,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13212,
+          "bbox": [
+            8,
+            64,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12804,
+          "bbox": [
+            8,
+            72,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11988,
+          "bbox": [
+            10,
+            82,
+            182,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13208,
+          "bbox": [
+            8,
+            64,
+            182,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13396,
+          "bbox": [
+            8,
+            62,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\WIN10\\Desktop\\CodexPet\\.work\\frames\\pixel-dino-white\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12964,
+          "bbox": [
+            10,
+            58,
+            182,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

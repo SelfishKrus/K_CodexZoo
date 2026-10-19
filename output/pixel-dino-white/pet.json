@@ -1,0 +1,7 @@
+{
+  "id": "pixel-dino-white",
+  "displayName": "Pixel Dino White",
+  "description": "A white pixel dinosaur with a uniform two-pixel black outline and a desktop computer for task states.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp"
+}

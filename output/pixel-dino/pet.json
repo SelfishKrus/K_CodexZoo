@@ -1,7 +1,7 @@
 {
   "id": "pixel-dino",
   "displayName": "Pixel Dino",
-  "description": "A monochrome pixel dinosaur with a white outline for dark backgrounds and a desktop computer for working, waiting, review and error states.",
+  "description": "A black pixel dinosaur with a uniform two-pixel white outline and a desktop computer for task states.",
   "spriteVersionNumber": 1,
   "spritesheetPath": "spritesheet.webp"
 }
