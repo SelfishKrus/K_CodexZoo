@@ -1,0 +1,66 @@
+PIXEL DINO — CODEX PET RESOURCE SET
+
+Based on the supplied black pixel dinosaur reference. The background grid has
+been removed. A crisp white pixel outline keeps the dinosaur and its computer
+visible against dark backgrounds; the sprite backgrounds are fully transparent.
+
+INSTALLATION
+Copy pet.json and spritesheet.webp together into:
+  %USERPROFILE%\.codex\pets\pixel-dino\
+If CODEX_HOME is customized, use its pets\pixel-dino folder instead.
+Reopen the pet selector and choose Pixel Dino. Restart Codex if it does not
+refresh the list. This resource set does not install or activate itself.
+
+FORMAT
+The installed Codex app (26.1013.4894.0) supports this v1 format:
+  Canvas: 1536 x 1872 pixels; RGBA PNG and lossless WebP.
+  Grid: 8 columns x 9 rows, 192 x 208 pixels per frame.
+  57 occupied cells; 15 unused cells remain fully transparent.
+  Manifest: spriteVersionNumber = 1; spritesheetPath = spritesheet.webp.
+
+Rows, from the top (zero-based):
+  0  idle           6 frames  Quiet breathing and blinking.
+  1  running-right  8 frames  Alternating rightward gait.
+  2  running-left   8 frames  Mirrored leftward gait, same temporal order.
+  3  waving         4 frames  A small attached-arm greeting.
+  4  jumping        5 frames  Anticipation, rise, peak, descent, landing.
+  5  failed         8 frames  Error cross on monitor, disappointed reaction.
+  6  waiting        6 frames  Hourglass on monitor, expectant waiting.
+  7  running        6 frames  Typing at computer, changing activity bars.
+  8  review         6 frames  Inspecting the screen and a completion check.
+
+The state named "running" means an active task; directional movement has its
+own running-right and running-left rows. This v1 set does not include the
+optional sixteen gaze-direction frames used by v2.
+
+CONTENTS
+pet.json                Codex import manifest.
+spritesheet.webp        Lossless runtime atlas referenced by the manifest.
+spritesheet.png         Matching transparent PNG atlas.
+dinosaur.png            Transparent 192 x 208 idle pose for standalone use.
+animations.json         Row mapping, cell geometry and playback durations.
+preview.html            Offline interactive player; state, frame, size and
+                        background controls. Open in a browser.
+preview.gif             Animated nine-state overview on a dark background.
+preview-dark.png        Actual-size browser preview on a pure black background.
+contact-sheet.png       Every frame on a light background.
+contact-sheet-dark.png  Every frame on a dark background.
+validation.json         Bundled atlas validator's report for the WebP file.
+frame-review.json       Bundled extracted-frame inspection report.
+quality-checks.json    Palette, transparency, margins and jump checks.
+source-assets.zip       Selected generated strips, source references, prompts
+                        and registration information for future revision.
+
+ARTWORK AND VERIFICATION
+Artwork and outline edits use built-in Image Generation. Assembly uses
+connected pose extraction, a shared scale within each row, nearest-neighbor
+resizing and a strict black/white/transparent palette. Directional left frames
+mirror the approved right frames individually. Props are part of the four
+computer-state scenes and are fitted together with the character.
+
+Format and timing were checked against the locally installed app's loader and
+animation definitions, and the existing local pet manifest. Preview playback
+is rendered from the final encoded atlas. Validation reports describe file
+checks; no in-app installation or activation is claimed.
+
+The exact input reference remains unchanged in the project's img folder.

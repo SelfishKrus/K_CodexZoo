@@ -1,0 +1,212 @@
+{
+  "ok": true,
+  "atlasSha256": "44e58bdfbed858b8fea56578ff066d6c7961a83639ff272b64469227081be782",
+  "palette": "transparent, opaque black, opaque white",
+  "pngWebpPixelsIdentical": true,
+  "allFramesHaveEightPixelMargin": true,
+  "jumpLiftPixels": 34,
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 6,
+      "distinctFrames": 6,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.988,
+        0.997,
+        0.994,
+        0.993,
+        0.996,
+        0.995
+      ]
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "distinctFrames": 8,
+      "bottoms": [
+        188,
+        190,
+        190,
+        183,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.926,
+        0.928,
+        0.928,
+        0.92,
+        0.918,
+        0.922,
+        0.93,
+        0.937
+      ]
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "distinctFrames": 8,
+      "bottoms": [
+        188,
+        190,
+        190,
+        183,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.926,
+        0.928,
+        0.928,
+        0.92,
+        0.918,
+        0.922,
+        0.93,
+        0.937
+      ]
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "distinctFrames": 4,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        1.0,
+        0.996,
+        0.995,
+        0.999
+      ]
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "distinctFrames": 5,
+      "bottoms": [
+        190,
+        179,
+        156,
+        172,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.996,
+        0.999,
+        0.997,
+        0.997,
+        0.998
+      ]
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "distinctFrames": 8,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.937,
+        0.95,
+        0.948,
+        0.919,
+        0.908,
+        0.938,
+        0.973,
+        0.977
+      ]
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "distinctFrames": 6,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.971,
+        0.989,
+        0.982,
+        0.988,
+        0.988,
+        0.979
+      ]
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "distinctFrames": 6,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.996,
+        0.997,
+        0.997,
+        0.992,
+        0.992,
+        0.995
+      ]
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "distinctFrames": 6,
+      "bottoms": [
+        190,
+        190,
+        190,
+        190,
+        190,
+        190
+      ],
+      "whiteBoundaryFractions": [
+        0.996,
+        0.998,
+        0.991,
+        0.995,
+        0.997,
+        0.996
+      ]
+    }
+  ],
+  "visualReview": {
+    "lightAndDarkContactSheets": "pass",
+    "actualSizeOnPureBlack": "pass",
+    "actualSizeOnWhite": "pass",
+    "previewStateSelectionAndFrameStepping": "pass",
+    "inAppInstallationTested": false
+  }
+}

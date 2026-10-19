@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Dino — Animation Preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:36px;font:16px/1.5 system-ui,sans-serif;background:#f2f1ed;color:#242422}main{max-width:960px;margin:auto}h1{margin:0;font-size:36px;letter-spacing:-1px}p{color:#62625b}button,select{font:inherit;border:1px solid #cbc9bf;background:white;border-radius:8px;padding:8px 14px;cursor:pointer}button[aria-pressed=true]{background:#282923;color:white}nav{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.stage{display:flex;justify-content:center;align-items:center;min-height:460px;border:1px solid #d4d2c9;border-radius:16px;background:#17191f;overflow:hidden}.sprite{width:192px;height:208px;flex-shrink:0;background-image:url('spritesheet.png');background-size:1536px 1872px;background-repeat:no-repeat;image-rendering:pixelated;transform:scale(2)}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px}.meta{font-size:13px;color:#77766e}a{color:inherit}.status{min-height:28px}footer{margin-top:30px;font-size:14px;color:#62625b}@media(max-width:500px){body{padding:18px}.stage{min-height:340px}.sprite{transform:scale(1.5)}}
+</style>
+<main>
+<h1>Pixel Dino</h1>
+<p>A tiny dinosaur, a desktop for busy moments, and a crisp white outline for dark backgrounds.</p>
+<nav aria-label="Animation states" id="states"></nav>
+<section class="stage" id="stage" aria-label="Animation preview"><div class="sprite" id="sprite" role="img" aria-label="Pixel dinosaur animation"></div></section>
+<div class="controls"><button id="play" aria-pressed="false">Pause</button><button id="step">Next frame</button><label>Size <select id="zoom"><option value="1">Actual size</option><option value="2" selected>2×</option><option value="3">3×</option></select></label><label>Background <select id="background"><option value="#17191f">Dark</option><option value="#000000">Black</option><option value="#ffffff">White</option><option value="#deded6">Warm gray</option><option value="#8c9aa6">Slate</option></select></label></div>
+<p class="status" id="status" aria-live="polite"></p>
+<p class="meta">Codex sprite format v1 · 57 frames · 9 states · 192 × 208 pixels per frame</p>
+<footer><a href="spritesheet.png">PNG sprite sheet</a> · <a href="spritesheet.webp">Lossless WebP</a> · <a href="contact-sheet.png">All frames</a> · <a href="README.txt">Installation notes</a></footer>
+</main>
+<script>
+const states=[
+{name:'Idle',key:'idle',n:6,t:[1680,660,660,840,840,1920],text:'Breathing and blinking.'},
+{name:'Run right',key:'running-right',n:8,t:[120,120,120,120,120,120,120,220],text:'Moving to the right.'},
+{name:'Run left',key:'running-left',n:8,t:[120,120,120,120,120,120,120,220],text:'Moving to the left.'},
+{name:'Wave',key:'waving',n:4,t:[140,140,140,280],text:'A small greeting.'},
+{name:'Jump',key:'jumping',n:5,t:[140,140,140,140,280],text:'Lifting off and landing.'},
+{name:'Error',key:'failed',n:8,t:[140,140,140,140,140,140,140,240],text:'An error at the computer.'},
+{name:'Waiting',key:'waiting',n:6,t:[150,150,150,150,150,260],text:'Paused at the computer, waiting for input.'},
+{name:'Working',key:'running',n:6,t:[120,120,120,120,120,220],text:'Typing at the computer.'},
+{name:'Review',key:'review',n:6,t:[150,150,150,150,150,280],text:'Checking completed work.'}];
+const sprite=document.querySelector('#sprite'),status=document.querySelector('#status'),play=document.querySelector('#play');
+let row=0,frame=0,timer,paused=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function paint(){sprite.style.backgroundPosition=`${-frame*192}px ${-row*208}px`;sprite.setAttribute('aria-label',states[row].text);status.textContent=`${states[row].text} Frame ${frame+1} of ${states[row].n}.`;play.textContent=paused?'Play':'Pause';play.setAttribute('aria-pressed',String(paused));}
+function schedule(){clearTimeout(timer);paint();if(!paused)timer=setTimeout(()=>{frame=(frame+1)%states[row].n;schedule()},states[row].t[frame]);}
+states.forEach((s,i)=>{const b=document.createElement('button');b.textContent=s.name;b.setAttribute('aria-pressed',String(i===0));b.onclick=()=>{row=i;frame=0;document.querySelectorAll('nav button').forEach((v,j)=>v.setAttribute('aria-pressed',String(j===i)));schedule();};document.querySelector('#states').append(b);});
+play.onclick=()=>{paused=!paused;schedule()};document.querySelector('#step').onclick=()=>{paused=true;frame=(frame+1)%states[row].n;schedule()};document.querySelector('#zoom').onchange=e=>{sprite.style.transform=`scale(${e.target.value})`;document.querySelector('#stage').style.minHeight=`${208*Number(e.target.value)+40}px`};document.querySelector('#background').onchange=e=>document.querySelector('#stage').style.background=e.target.value;schedule();
+</script>
+</html>
